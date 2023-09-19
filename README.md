@@ -49,6 +49,7 @@ GET <http://127.0.0.1:8000/rest/vcenter/network>
 
 Crear VM:
 POST <http://127.0.0.1:8000/rest/vcenter/create_vm>
+
     Body:
         {
             "vm_name": "123test_api"
