@@ -47,6 +47,9 @@ GET <http://127.0.0.1:8000/rest/vcenter/folder>
 Obtener Networks:
 GET <http://127.0.0.1:8000/rest/vcenter/network>
 
+Obtener Datastores:
+GET <http://127.0.0.1:8000/rest/vcenter/datastore>
+
 Crear VM:
 POST <http://127.0.0.1:8000/rest/vcenter/create_vm>
 

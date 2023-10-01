@@ -32,7 +32,7 @@ async def create_vm(request: Request):
 def fetch_data(session_id, vm_name):
     try:
         base_url = 'https://10.120.80.20/rest'
-        url = f'{base_url}/vcenter/vm-template/library-items/1bdc89b9-e7ed-454e-87f5-c09f94434a64?action=deploy'
+        url = f'{base_url}/vcenter/vm-template/library-items/f51f44b0-dc0e-4058-9806-c1d7121d11e4?action=deploy'
 
         headers = {'vmware-api-session-id': session_id}
 
